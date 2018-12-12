@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a{
+	color: #333;
+}
+a:hover{
+	color: #000;
+}
+.blue{
+	color: #1E90FF;
+}.red{
+	color: red;
+}.yellow{
+	color: yellow;
+}.green{
+	color: green;
+}
+.bottom-navigation {
+    background: #dfdddd;
+    overflow: hidden;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+   margin-top: 10%;
+}
+.top-navigation {
+    background: #fff;
+    overflow: hidden;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+
+}
+.top-navigation img{
+	margin-bottom: -7px;
+}
+.top-navigation .pull-right{
+	float:right;
+}
+.top-navigation button{
+	 width: 80px;
+	 padding: 5px;
+	 background-color: #1E90FF;
+	 border: none;
+	 color: #fff;
+}
+.bottom-navigation .pull-right{
+    float: right;
+    margin-right: 3%!important;
+}
+
+.main-header {
+    width: 80%;
+    display: none;
+    float: left;
+}
+.bottom-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+
+}
+.top-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.my-search h1{
+  font-size: 60px;
+  text-align: center;
+  
+}
+.my-search form input{
+  width: 300px;
+  height:30px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+}
+.my-search .my-btns{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-left: 5%;
+    padding-right: 5%; 
+    margin-top: 30px;
+}
+
+@media screen and (max-width:768px){
+	.bottom-navigation {
+    margin-top: 10%;
+    min-height: 65px;
+}
+.top-navigation .pull-right {
+    float: none;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.top-navigation button{
+	 width: 70px;
+	 padding: 5px;
+	 background-color: #1E90FF;
+	 border: none;
+	 color: #fff;
+}
+.bottom-navigation .pull-right{
+    float: right;
+    margin-right: 3%!important;
+}
+
+.main-header {
+    width: 80%;
+    display: none;
+    float: left;
+}
+.bottom-navigation ul li {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    margin-top: -20px;
+    text-align: center;
+    text-decoration: none;
+}
+.top-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.my-search h1{
+  font-size: 40px;
+}
+.my-search form input{
+  width: 200px;
+}
+.my-search .my-btns{
+    padding-left: 15%;
+    min-height:100px; 
+}
+}
+
+
+
