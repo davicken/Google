@@ -3,29 +3,29 @@ body {
     padding: 0;
 }
 a{
-	color: #333;
+    color: #333;
 }
 a:hover{
-	color: #000;
+    color: #000;
 }
 .blue{
-	color: #1E90FF;
+    color: #1E90FF;
 }.red{
-	color: red;
+    color: red;
 }.yellow{
-	color: yellow;
+    color: gold;
 }.green{
-	color: green;
+    color: green;
 }
 .bottom-navigation {
     background: #dfdddd;
     overflow: hidden;
-    width: 95%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
-   margin-top: 10%;
+   margin-top: 16%;
 }
 .top-navigation {
     background: #fff;
@@ -37,22 +37,34 @@ a:hover{
     height: 50px;
 
 }
+form button {
+    height: 40px;
+    background: transparent;
+    border: none;
+    margin-left: 63%;
+    top: -42px;
+    position: relative;
+}
 .top-navigation img{
-	margin-bottom: -7px;
+    margin-bottom: -7px;
 }
 .top-navigation .pull-right{
-	float:right;
+    float:right;
 }
 .top-navigation button{
-	 width: 80px;
-	 padding: 5px;
-	 background-color: #1E90FF;
-	 border: none;
-	 color: #fff;
+     width: 80px;
+     padding: 5px;
+     background-color: #1E90FF;
+     border: none;
+     color: #fff;
 }
 .bottom-navigation .pull-right{
     float: right;
     margin-right: 3%!important;
+}
+form img {
+    display: block;
+    margin-top: -5px;
 }
 
 .main-header {
@@ -75,49 +87,65 @@ a:hover{
 }
 
 .my-search h1{
-  font-size: 60px;
+  font-size: 90px;
   text-align: center;
-  
+  margin-bottom: 20px;
+  margin-top: 130px;
 }
-.my-search form input{
-  width: 300px;
-  height:30px;
-   display: block;
+.my-search form input {
+    width: 400px;
+    height: 40px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
+    border: 1px solid silver;
+    box-shadow: 1px 1px 5px silver;
 }
-.my-search .my-btns{
-   display: block;
+.my-search .my-btns {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 305px;
     padding-left: 5%;
-    padding-right: 5%; 
-    margin-top: 30px;
+    padding-right: 5%;
+}
+.my-search .my-btns button {
+    padding: 4px 10px;
+    width: 150px;
 }
 
+@media screen and (max-width:390px){
+    .top-navigation button {
+   visibility: hidden;
+
+}
+}
 @media screen and (max-width:768px){
-	.bottom-navigation {
-    margin-top: 10%;
-    min-height: 65px;
+.bottom-navigation {
+    background: #dfdddd;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
 }
 .top-navigation .pull-right {
-    float: none;
+    /*float: none;*/
     display: block;
     margin-left: 10%;
     margin-right: auto;
 }
 .top-navigation button{
-	 width: 70px;
-	 padding: 5px;
-	 background-color: #1E90FF;
-	 border: none;
-	 color: #fff;
+     width: 70px;
+     padding: 5px;
+     background-color: #1E90FF;
+     border: none;
+     color: #fff;
 }
 .bottom-navigation .pull-right{
-    float: right;
-    margin-right: 3%!important;
+    float: none;
 }
 
 .main-header {
@@ -129,7 +157,7 @@ a:hover{
     list-style-type: none;
     display: block;
     padding: 10px;
-    margin-top: -20px;
+    margin-top: -5px;
     text-align: center;
     text-decoration: none;
 }
@@ -147,8 +175,13 @@ a:hover{
   width: 200px;
 }
 .my-search .my-btns{
-    padding-left: 15%;
     min-height:100px; 
+    width: 200px;
+}
+.my-search .my-btns button {
+    padding: 4px 10px;
+    width: 100%;
+    margin-bottom: 5px;
 }
 }
 
