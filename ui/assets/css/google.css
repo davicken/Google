@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #000;
+}
+.blue{
+    color: #1E90FF;
+}.red{
+    color: red;
+}.yellow{
+    color: gold;
+}.green{
+    color: green;
+}
+.bottom-navigation {
+    background: #dfdddd;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+   margin-top: 16%;
+}
+.top-navigation {
+    background: #fff;
+    overflow: hidden;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+
+}
+form button {
+    height: 40px;
+    background: transparent;
+    border: none;
+    margin-left: 63%;
+    top: -42px;
+    position: relative;
+}
+.top-navigation img{
+    margin-bottom: -7px;
+}
+.top-navigation .pull-right{
+    float:right;
+}
+.top-navigation button{
+     width: 80px;
+     padding: 5px;
+     background-color: #1E90FF;
+     border: none;
+     color: #fff;
+}
+.bottom-navigation .pull-right{
+    float: right;
+    margin-right: 3%!important;
+}
+form img {
+    display: block;
+    margin-top: -5px;
+}
+
+.main-header {
+    width: 80%;
+    display: none;
+    float: left;
+}
+.bottom-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+
+}
+.top-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.my-search h1{
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 130px;
+}
+.my-search form input {
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    border: 1px solid silver;
+    box-shadow: 1px 1px 5px silver;
+}
+.my-search .my-btns {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 305px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.my-search .my-btns button {
+    padding: 4px 10px;
+    width: 150px;
+}
+
+@media screen and (max-width:390px){
+    .top-navigation button {
+   visibility: hidden;
+
+}
+}
+@media screen and (max-width:768px){
+.bottom-navigation {
+    background: #dfdddd;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+}
+.top-navigation .pull-right {
+    /*float: none;*/
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.top-navigation button{
+     width: 70px;
+     padding: 5px;
+     background-color: #1E90FF;
+     border: none;
+     color: #fff;
+}
+.bottom-navigation .pull-right{
+    float: none;
+}
+
+.main-header {
+    width: 80%;
+    display: none;
+    float: left;
+}
+.bottom-navigation ul li {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    margin-top: -5px;
+    text-align: center;
+    text-decoration: none;
+}
+.top-navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.my-search h1{
+  font-size: 40px;
+}
+.my-search form input{
+  width: 200px;
+}
+.my-search .my-btns{
+    min-height:100px; 
+    width: 200px;
+}
+.my-search .my-btns button {
+    padding: 4px 10px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
+
+
+
